@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sbn
 
 def load_data():
-    fear_greed = pd.read_csv('C:\\Users\\huzai\\Downloads\\primetrade-assignment\\data\\fear_greed_index.csv')
-    trades = pd.read_csv('C:\\Users\\huzai\\Downloads\\primetrade-assignment\\data\\historical_data.csv')
+    fear_greed = pd.read_csv('fear_greed_index.csv')
+    trades = pd.read_csv('historical_data.csv')
     return fear_greed, trades
 
 def clean_data(fear_greed, trades):
